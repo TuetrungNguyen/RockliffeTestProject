@@ -90,6 +90,7 @@ const filters = ref({
 //Timer for debouncing search input to avoid excessive API calls
 let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 
+//Function to calculate visible pages for pagination
 const visiblePages = computed(() => {
   const pages: (number | string)[] = [];
   const current = pagination.value.page;
