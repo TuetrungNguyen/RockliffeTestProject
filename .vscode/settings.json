@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Northwind",
+            "database": "${workspaceFolder:RockliffeProject}/src/lib/northwind.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
